@@ -1,12 +1,10 @@
-# USAGE
-# python pi_facial_landmarks.py
+ #facial landmarks only for publish
 
-# import the necessary packages
 from imutils import face_utils
 import dlib
 import cv2
 
-# initialize dlib's face detector (HOG-based) and then create
+# initialize dlib's face detector and then create
 # the facial landmark predictor
 p = "shape_predictor_68_face_landmarks.dat"
 detector = dlib.get_frontal_face_detector()
